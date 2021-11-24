@@ -1,0 +1,12 @@
+INSERT INTO `test_task_db`.`book` (`book_author`, `book_description`, `book_number`, `book_title`) VALUES ('Дик', 'Научно-фантастический роман', '12365', 'Мечтают ли андроиды об электроовцах?');
+INSERT INTO `test_task_db`.`book` (`book_author`, `book_description`, `book_number`, `book_title`) VALUES ('Герберт', 'Один из самых известных научно-фантастических романов XX века.', '98456', 'Дюна');
+INSERT INTO `test_task_db`.`book` (`book_author`, `book_description`, `book_number`, `book_title`) VALUES ('Сент-Экзюпери', 'Аллегорическая повесть-сказка', '88534', 'Маленький принц');
+INSERT INTO `test_task_db`.`book` (`book_author`, `book_description`, `book_number`, `book_title`) VALUES ('Хокинг', 'Научно популярная книга об устройстве вселенной', '369551', 'Мир в ореховой скорлупке');
+INSERT INTO `test_task_db`.`book` (`book_author`, `book_description`, `book_number`, `book_title`) VALUES ('Оруэлл', 'Роман-антиутопия', '55287', '1984');
+
+INSERT INTO `test_task_db`.`review` (`review_number`, `review_rate`, `review_text`, `book_book_id`) VALUES ('4124', '5', 'Классика фантастики', '2');
+INSERT INTO `test_task_db`.`review` (`review_number`, `review_rate`, `review_text`, `book_book_id`) VALUES ('3654', '5', 'Очень познавательно', '4');
+INSERT INTO `test_task_db`.`review` (`review_number`, `review_rate`, `review_text`, `book_book_id`) VALUES ('5512', '4', 'Сложная книга', '4');
+INSERT INTO `test_task_db`.`review` (`review_number`, `review_rate`, `review_text`, `book_book_id`) VALUES ('1252', '5', 'Для маленьких взрослых', '3');
+INSERT INTO `test_task_db`.`review` (`review_number`, `review_rate`, `review_text`, `book_book_id`) VALUES ('6547', '4', 'Ничего не понял, но очень интересно', '4');
+
